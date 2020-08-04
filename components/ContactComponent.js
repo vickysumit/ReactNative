@@ -8,7 +8,10 @@ class Contact extends Component{
 
 
     }
+    static navigationOptions = {
+      title: 'Contact us',
 
+  };
     render(){
         const styles = StyleSheet.create({
             container: {

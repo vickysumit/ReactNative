@@ -36,6 +36,10 @@ class Home extends Component {
             leaders: LEADERS
         }
     }
+    static navigationOptions = {
+        title: 'Home',
+
+    };
     render() {
       
         return(

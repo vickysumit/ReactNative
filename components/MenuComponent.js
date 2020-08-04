@@ -12,8 +12,12 @@ class Menu extends Component {
             dishes:DISHES
         }
     }
+    static navigationOptions = {
+        title: 'Menu',
 
+    };
     render(){
+        
         const renderMenuItem = ({item, index}) => {
 
             return (
